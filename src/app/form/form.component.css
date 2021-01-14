@@ -1,0 +1,15 @@
+* {
+  padding: 7px;
+  margin: 0px 5px;
+  border-radius: 4px;
+  border: 0px;
+}
+
+input, select {
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.40);
+  font-size: 16px;
+}
+
+select {
+  appearance:none;
+}

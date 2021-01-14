@@ -1,0 +1,6 @@
+.grid {
+  position: relative;
+  top: 50px;
+  display: grid;
+  grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+}

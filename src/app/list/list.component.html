@@ -1,0 +1,14 @@
+<div class="list">
+  <p @header *ngIf="list.length > 0">
+    You have {{ list.length }} items in {{ listName }}ing list
+  </p>
+  <p @empty *ngIf="list.length < 1">
+    Your {{ listName }}ing list is empty!
+  </p>
+  <div @list class="list-container">
+    <li @items class="box grid-2" *ngFor="let item of list; let i = index">
+      <span>{{ i + 1 }}.</span>
+      <div>{{ item }}</div><i class="material-icons" (click)="remove(i, item)">&#xE872;</i>
+    </li>
+  </div>
+</div>

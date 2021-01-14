@@ -1,0 +1,9 @@
+<form [formGroup]="sendForm" (ngSubmit)="onSubmit(sendForm.value)">
+  <input class="form-control" type="text" name="text" formControlName="text">
+  <select class="form-control" name="type" formControlName="type">
+    <option value="work">Work</option>
+    <option value="read">Read</option>
+    <option value="watch">Watch</option>
+  </select>
+  <button mat-raised-button color="primary" type="submit">Add</button>
+</form>

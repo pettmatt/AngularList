@@ -1,0 +1,33 @@
+li {
+  list-style: none;
+  padding: 5px;
+}
+   
+.list-container {
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.box {
+  width: 80%;
+  margin: 5px;
+  padding: 10px 0px;
+  /*border-top: 1px solid #000;
+  border-bottom: 1px solid #000;*/
+  background: linear-gradient(to top right, #83dcda 0%, #dbc0fa 100%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.grid-2 {
+  display:grid;
+  grid-template-columns: 30px auto 30px;
+}
+
+i {
+  cursor: pointer;
+  padding: 0px 5px;
+}
